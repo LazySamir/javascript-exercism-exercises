@@ -1,0 +1,239 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ec2-user/.nvm/versions/node/v6.14.3/bin/node',
+1 verbose cli   '/home/ec2-user/.nvm/versions/node/v6.14.3/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'homebrew' ]
+2 info using npm@3.10.10
+3 info using node@v6.14.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData homebrew
+8 silly fetchNamedPackageData homebrew
+9 silly mapToRegistry name homebrew
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'homebrew',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'homebrew',
+12 silly mapToRegistry   name: 'homebrew',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/homebrew
+14 verbose request uri https://registry.npmjs.org/homebrew
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 4:30:36 PM
+17 verbose request id 6f9532cbe0402d5e
+18 http request GET https://registry.npmjs.org/homebrew
+19 http 200 https://registry.npmjs.org/homebrew
+20 verbose headers { date: 'Mon, 03 Dec 2018 16:30:36 GMT',
+20 verbose headers   'content-type': 'application/json; charset=UTF-8',
+20 verbose headers   'transfer-encoding': 'chunked',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'set-cookie': [ '__cfduid=d220f72bb5fb2dcaec11b13a91c83ed671543854636; expires=Tue, 03-Dec-19 16:30:36 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+20 verbose headers   'cf-cache-status': 'HIT',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'cf-ray': '48376b349e7e297b-DUB',
+20 verbose headers   etag: 'W/"39d62ad8176fa60cfdd4cef682058182"',
+20 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+20 verbose headers   'last-modified': 'Sun, 27 May 2018 03:51:29 GMT',
+20 verbose headers   vary: 'accept-encoding, accept',
+20 verbose headers   server: 'cloudflare',
+20 verbose headers   'content-encoding': 'gzip' }
+21 silly get cb [ 200,
+21 silly get   { date: 'Mon, 03 Dec 2018 16:30:36 GMT',
+21 silly get     'content-type': 'application/json; charset=UTF-8',
+21 silly get     'transfer-encoding': 'chunked',
+21 silly get     connection: 'keep-alive',
+21 silly get     'set-cookie': [ '__cfduid=d220f72bb5fb2dcaec11b13a91c83ed671543854636; expires=Tue, 03-Dec-19 16:30:36 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+21 silly get     'cf-cache-status': 'HIT',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'cf-ray': '48376b349e7e297b-DUB',
+21 silly get     etag: 'W/"39d62ad8176fa60cfdd4cef682058182"',
+21 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 silly get     'last-modified': 'Sun, 27 May 2018 03:51:29 GMT',
+21 silly get     vary: 'accept-encoding, accept',
+21 silly get     server: 'cloudflare',
+21 silly get     'content-encoding': 'gzip' } ]
+22 verbose get saving homebrew to /home/ec2-user/.npm/registry.npmjs.org/homebrew/.cache.json
+23 verbose correctMkdir /home/ec2-user/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule homebrew@0.1.0 checking installable status
+37 silly cache add args [ 'homebrew', null ]
+38 verbose cache add spec homebrew
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'homebrew',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'homebrew',
+39 silly cache add   name: 'homebrew',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed homebrew@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for homebrew
+42 info addNameTag [ 'homebrew', 'latest' ]
+43 silly mapToRegistry name homebrew
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'homebrew',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'homebrew',
+46 silly mapToRegistry   name: 'homebrew',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/homebrew
+48 verbose addNameTag registry:https://registry.npmjs.org/homebrew not in flight; fetching
+49 verbose get https://registry.npmjs.org/homebrew not expired, no request
+50 silly addNameTag next cb for homebrew with tag latest
+51 silly addNamed homebrew@0.1.0
+52 verbose addNamed "0.1.0" is a plain semver version for homebrew
+53 silly mapToRegistry name homebrew
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'homebrew',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'homebrew',
+56 silly mapToRegistry   name: 'homebrew',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/homebrew
+58 verbose addRemoteTarball https://registry.npmjs.org/homebrew/-/homebrew-0.1.0.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/homebrew/-/homebrew-0.1.0.tgz',
+59 verbose addRemoteTarball   'cf898055ed935acf00da696a9078877f27c4ad57' ]
+60 info retry fetch attempt 1 at 4:30:36 PM
+61 info attempt registry request try #1 at 4:30:36 PM
+62 http fetch GET https://registry.npmjs.org/homebrew/-/homebrew-0.1.0.tgz
+63 http fetch 200 https://registry.npmjs.org/homebrew/-/homebrew-0.1.0.tgz
+64 silly fetchAndShaCheck shasum cf898055ed935acf00da696a9078877f27c4ad57
+65 verbose addTmpTarball /tmp/npm-4639-b4c64ebc/registry.npmjs.org/homebrew/-/homebrew-0.1.0.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for homebrew@0.1.0
+67 verbose correctMkdir /home/ec2-user/.npm correctMkdir not in flight; initializing
+68 silly cache afterAdd homebrew@0.1.0
+69 verbose afterAdd /home/ec2-user/.npm/homebrew/0.1.0/package/package.json not in flight; writing
+70 verbose correctMkdir /home/ec2-user/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /home/ec2-user/.npm/homebrew/0.1.0/package/package.json written
+72 silly loadAllDepsIntoIdealTree Finishing
+73 silly loadIdealTree Finishing
+74 silly currentTree javascript-exercism-exercises@1.0.0
+75 silly idealTree javascript-exercism-exercises@1.0.0
+75 silly idealTree └── homebrew@0.1.0
+76 silly generateActionsToTake Starting
+77 silly install generateActionsToTake
+78 silly generateActionsToTake Finishing
+79 silly diffTrees action count 1
+80 silly diffTrees add homebrew@0.1.0
+81 silly decomposeActions action count 8
+82 silly decomposeActions fetch homebrew@0.1.0
+83 silly decomposeActions extract homebrew@0.1.0
+84 silly decomposeActions test homebrew@0.1.0
+85 silly decomposeActions preinstall homebrew@0.1.0
+86 silly decomposeActions build homebrew@0.1.0
+87 silly decomposeActions install homebrew@0.1.0
+88 silly decomposeActions postinstall homebrew@0.1.0
+89 silly decomposeActions finalize homebrew@0.1.0
+90 silly runTopLevelLifecycles Starting
+91 silly executeActions Starting
+92 silly install executeActions
+93 silly doSerial global-install 0
+94 silly doParallel fetch 1
+95 verbose correctMkdir /home/ec2-user/.npm/_locks correctMkdir not in flight; initializing
+96 verbose lock using /home/ec2-user/.npm/_locks/staging-b922be1a5183e69d.lock for /home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises/node_modules/.staging
+97 silly doParallel extract 1
+98 silly extract homebrew@0.1.0
+99 verbose unbuild node_modules/.staging/homebrew-40e627b1
+100 silly gentlyRm /home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises/node_modules/.staging/homebrew-40e627b1 is being purged from base /home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises
+101 verbose gentlyRm don't care about contents; nuking /home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises/node_modules/.staging/homebrew-40e627b1
+102 verbose tar unpack /home/ec2-user/.npm/homebrew/0.1.0/package.tgz
+103 verbose tar unpacking to /home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises/node_modules/.staging/homebrew-40e627b1
+104 silly gentlyRm /home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises/node_modules/.staging/homebrew-40e627b1 is being purged
+105 verbose gentlyRm don't care about contents; nuking /home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises/node_modules/.staging/homebrew-40e627b1
+106 silly gunzTarPerm modes [ '775', '664' ]
+107 silly gunzTarPerm extractEntry package.json
+108 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+109 silly gunzTarPerm extractEntry README.md
+110 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+111 silly gentlyRm /home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises/node_modules/.staging/homebrew-40e627b1/node_modules is being purged
+112 verbose gentlyRm don't care about contents; nuking /home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises/node_modules/.staging/homebrew-40e627b1/node_modules
+113 silly doParallel preinstall 1
+114 silly preinstall homebrew@0.1.0 /home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises/node_modules/.staging/homebrew-40e627b1
+115 info lifecycle homebrew@0.1.0~preinstall: homebrew@0.1.0
+116 silly lifecycle homebrew@0.1.0~preinstall: no script for preinstall, continuing
+117 silly doReverseSerial remove 0
+118 silly doSerial move 0
+119 silly doSerial finalize 1
+120 silly finalize /home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises/node_modules/homebrew
+121 silly doSerial build 1
+122 silly build homebrew@0.1.0
+123 info linkStuff homebrew@0.1.0
+124 silly linkStuff homebrew@0.1.0 has /home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises/node_modules as its parent node_modules
+125 verbose linkBins homebrew@0.1.0
+126 verbose linkMans homebrew@0.1.0
+127 silly doSerial global-link 0
+128 silly doParallel update-linked 0
+129 silly doSerial install 1
+130 silly install homebrew@0.1.0 /home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises/node_modules/.staging/homebrew-40e627b1
+131 info lifecycle homebrew@0.1.0~install: homebrew@0.1.0
+132 silly lifecycle homebrew@0.1.0~install: no script for install, continuing
+133 silly doSerial postinstall 1
+134 silly postinstall homebrew@0.1.0 /home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises/node_modules/.staging/homebrew-40e627b1
+135 info lifecycle homebrew@0.1.0~postinstall: homebrew@0.1.0
+136 verbose lifecycle homebrew@0.1.0~postinstall: unsafe-perm in lifecycle true
+137 verbose lifecycle homebrew@0.1.0~postinstall: PATH: /home/ec2-user/.nvm/versions/node/v6.14.3/lib/node_modules/npm/bin/node-gyp-bin:/home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises/node_modules/homebrew/node_modules/.bin:/home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises/node_modules/.bin:/home/ec2-user/.nvm/versions/node/v6.14.3/bin:/usr/local/rvm/gems/ruby-2.4.1/bin:/usr/local/rvm/gems/ruby-2.4.1@global/bin:/usr/local/rvm/rubies/ruby-2.4.1/bin:/usr/local/bin:/bin:/usr/bin:/home/ec2-user/.local/bin:/home/ec2-user/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/usr/local/rvm/bin:/home/ec2-user/.local/bin:/home/ec2-user/bin:/home/ec2-user/.local/bin:/home/ec2-user/bin
+138 verbose lifecycle homebrew@0.1.0~postinstall: CWD: /home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises/node_modules/homebrew
+139 silly lifecycle homebrew@0.1.0~postinstall: Args: [ '-c',
+139 silly lifecycle   'ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"' ]
+140 silly lifecycle homebrew@0.1.0~postinstall: Returned: code: 1  signal: null
+141 info lifecycle homebrew@0.1.0~postinstall: Failed to exec postinstall script
+142 verbose unlock done using /home/ec2-user/.npm/_locks/staging-b922be1a5183e69d.lock for /home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises/node_modules/.staging
+143 silly rollbackFailedOptional Starting
+144 silly rollbackFailedOptional Finishing
+145 silly runTopLevelLifecycles Finishing
+146 silly install printInstalled
+147 verbose stack Error: homebrew@0.1.0 postinstall: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+147 verbose stack Exit status 1
+147 verbose stack     at EventEmitter.<anonymous> (/home/ec2-user/.nvm/versions/node/v6.14.3/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+147 verbose stack     at emitTwo (events.js:106:13)
+147 verbose stack     at EventEmitter.emit (events.js:191:7)
+147 verbose stack     at ChildProcess.<anonymous> (/home/ec2-user/.nvm/versions/node/v6.14.3/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+147 verbose stack     at emitTwo (events.js:106:13)
+147 verbose stack     at ChildProcess.emit (events.js:191:7)
+147 verbose stack     at maybeClose (internal/child_process.js:920:16)
+147 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+148 verbose pkgid homebrew@0.1.0
+149 verbose cwd /home/ec2-user/environment/POST-COURSE/javascript-exercism-exercises
+150 error Linux 4.14.47-56.37.amzn1.x86_64
+151 error argv "/home/ec2-user/.nvm/versions/node/v6.14.3/bin/node" "/home/ec2-user/.nvm/versions/node/v6.14.3/bin/npm" "install" "homebrew"
+152 error node v6.14.3
+153 error npm  v3.10.10
+154 error code ELIFECYCLE
+155 error homebrew@0.1.0 postinstall: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+155 error Exit status 1
+156 error Failed at the homebrew@0.1.0 postinstall script 'ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'.
+156 error Make sure you have the latest version of node.js and npm installed.
+156 error If you do, this is most likely a problem with the homebrew package,
+156 error not with npm itself.
+156 error Tell the author that this fails on your system:
+156 error     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+156 error You can get information on how to open an issue for this project with:
+156 error     npm bugs homebrew
+156 error Or if that isn't available, you can get their info via:
+156 error     npm owner ls homebrew
+156 error There is likely additional logging output above.
+157 verbose exit [ 1, true ]
